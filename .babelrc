@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      },
+      "debug": true
+    }],
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-inline-environment-variables"
+  ]
+}

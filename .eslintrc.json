@@ -1,0 +1,11 @@
+{
+  "extends": ["prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2017,
+    "experimentalObjectRestSpread": true,
+    "sourceType": "module"
+  }
+}
