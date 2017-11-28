@@ -5,6 +5,9 @@
   "repository": "git@github.com:jonathanchrisp/jonathanchrisp.com.git",
   "author": "Jonathan Chrisp <jonathan.chrisp@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "8.9.1"
+  },
   "dependencies": {
     "express": "^4.15.3",
     "react": "^16.1.1",
