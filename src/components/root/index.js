@@ -1,7 +1,7 @@
-const isProduction = process.env.NODE_ENV === 'production'
+import development from './development'
+import production from './production'
 
-if (isProduction) {
-  module.exports = require('./production')
-} else {
-  module.exports = require('./development')
-}
+const isProduction = process.env.NODE_ENV === 'production'
+const root = isProduction ? production : development
+
+export default root

@@ -1,5 +1,7 @@
 const Webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+
 const pkg = require('./package')
 
 const build = `${__dirname}/public`
@@ -43,8 +45,9 @@ module.exports = {
     new Webpack.EnvironmentPlugin({
       NODE_ENV: 'production',
     }),
-    new Webpack.optimize.UglifyJsPlugin({
-      compressor: { warnings: false },
+    new UglifyJSPlugin({
+      cache: true,
+      parallel: true,
       sourceMap: true,
     }),
   ],
