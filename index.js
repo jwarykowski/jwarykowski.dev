@@ -1,7 +1,7 @@
 const express = require('express')
 
 const nodeEnv = process.env.NODE_ENV || 'development'
-const port = process.env.POST || 8000
+const port = process.env.PORT || 8000
 const isDevelopment = nodeEnv === 'development'
 
 const app = new express()
