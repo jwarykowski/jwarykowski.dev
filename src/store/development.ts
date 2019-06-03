@@ -9,15 +9,6 @@ const loggerMiddleware = createLogger()
 const middleware = applyMiddleware(thunkMiddleware, loggerMiddleware)
 
 const enhancer = compose(middleware, DevTools.instrument())
-
-const configureStore = state => {
-  const store = createStore(reducers, state, enhancer)
-
-  if (module.hot) {
-    module.hot.accept('../reducers', () => store.replaceReducer(reducer))
-  }
-
-  return store
-}
+const configureStore = state => createStore(reducers, state, enhancer)
 
 export default configureStore
