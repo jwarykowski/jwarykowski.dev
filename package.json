@@ -25,13 +25,16 @@
     "eslint": "^4.12.0",
     "eslint-config-prettier": "^2.9.0",
     "lint-staged": "^5.0.0",
+    "parcel-bundler": "^1.12.3",
     "prettier": "^1.8.2"
   },
   "scripts": {
-    "bundle": "yarn clear && yarn run tsc",
+    "bundle":
+      "yarn clear && NODE_ENV=production parcel build src/index.html --public-url ./",
     "clear": "rimraf dist",
     "lint": "eslint .",
     "precommit": "lint-staged",
+    "start": "yarn parcel serve src/index.html",
     "type-check": "yarn run tsc --noEmit",
     "type-check:watch": "yarn type-check --watch"
   },
