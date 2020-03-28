@@ -29,8 +29,7 @@
     "prettier": "^1.8.2"
   },
   "scripts": {
-    "bundle":
-      "yarn clear && NODE_ENV=production parcel build src/index.html --public-url ./",
+    "bundle": "yarn clear && NODE_ENV=production parcel build src/index.html --public-url ./",
     "clear": "rimraf dist",
     "lint": "eslint .",
     "precommit": "lint-staged",
@@ -39,7 +38,10 @@
     "type-check:watch": "yarn type-check --watch"
   },
   "lint-staged": {
-    "*.{js,json,css}": ["prettier --write", "git add"]
+    "*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "volta": {
     "node": "10.16.0",

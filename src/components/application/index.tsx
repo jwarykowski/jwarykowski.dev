@@ -6,7 +6,7 @@ export default function Application() {
     <Hero fullheight medium primary>
       <Hero.Body>
         <Container>
-          <Title>jonathan chrisp</Title>
+          <Title>jonathan warykowski</Title>
           <SubTitle>
             A British Javascript Developer{' '}
             <Link href="https://lighthouse.io">@lighthouse.io</Link> in
