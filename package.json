@@ -1,8 +1,8 @@
 {
-  "name": "jonathanchrisp.com",
+  "name": "jwarykowski.dev",
   "version": "1.0.0",
-  "repository": "git@github.com:jonathanchrisp/jonathanchrisp.com.git",
-  "author": "Jonathan Chrisp <jonathan.chrisp@gmail.com>",
+  "repository": "git@github.com:jwarykowski/jwarykowski.dev.git",
+  "author": "Jonathan Chrisp <jonathan.warykowski@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^16.8.6",
