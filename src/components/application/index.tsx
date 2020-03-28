@@ -19,22 +19,28 @@ export default function Application() {
           <Tabs>
             <ul>
               <li>
-                <a href="https://github.com/jonathanchrisp" target="_blank">
-                  Github
-                </a>
+                <strong>
+                  <a href="https://github.com/jwarykowski" target="_blank">
+                    Github
+                  </a>
+                </strong>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/jonathanchrisp/"
-                  target="_blank"
-                >
-                  LinkedIn
-                </a>
+                <strong>
+                  <a
+                    href="https://www.linkedin.com/in/jonathanwarykowski/"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </strong>
               </li>
               <li>
-                <a href="https://twitter.com/jonathanchrisp" target="_blank">
-                  Twitter
-                </a>
+                <strong>
+                  <a href="https://twitter.com/jwarykowski" target="_blank">
+                    Twitter
+                  </a>
+                </strong>
               </li>
             </ul>
           </Tabs>
