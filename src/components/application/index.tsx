@@ -58,7 +58,7 @@ export default function Application() {
               <li>
                 <strong>
                   <a href="https://github.com/jwarykowski" target="_blank">
-                    Github
+                    github
                   </a>
                 </strong>
               </li>
@@ -68,14 +68,14 @@ export default function Application() {
                     href="https://www.linkedin.com/in/jonathanwarykowski/"
                     target="_blank"
                   >
-                    LinkedIn
+                    linkedIn
                   </a>
                 </strong>
               </li>
               <li>
                 <strong>
                   <a href="https://twitter.com/jwarykowski" target="_blank">
-                    Twitter
+                    twitter
                   </a>
                 </strong>
               </li>
