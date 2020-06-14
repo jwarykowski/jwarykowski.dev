@@ -37,7 +37,7 @@ export default function Application() {
             </p>
           </SubTitle>
           <Button class="button is-primary is-inverted">
-            <Link href="mailto:name@rapidtables.com">Contact Me</Link>
+            <Link href="mailto:jonathan.chrisp@gmail.com">Contact Me</Link>
           </Button>
         </Container>
       </Hero.Body>
